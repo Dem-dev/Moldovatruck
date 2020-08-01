@@ -10071,3 +10071,25 @@ form.wpcf7-form span.wpcf7-list-item-label {
 .scheme_yellow .sc_intro .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]):hover {
     background-color: #3ea2ee !important;
 }
+
+.hide-btn:hover .sc_intro_button.sc_item_button {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hide-btn .sc_intro_button.sc_item_button {
+    opacity: 0;
+    visibility: visible;
+}
+
+.hide-btn .sc_intro_style_2 .sc_intro_content {
+    padding-top: 30px;
+}
+
+.hide-btn:hover .sc_intro_content {
+    padding-top: 0 !important;
+}
+
+.scheme_yellow .sc_title_underline::after {
+    border-width: thick;
+}
