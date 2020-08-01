@@ -10060,6 +10060,14 @@ form.wpcf7-form span.wpcf7-list-item-label {
     margin-right: 0 !important;
 }
 
+.scheme_yellow .sc_intro_inner .sc_intro_subtitle {
+    cursor: pointer;
+}
+
 .sc_intro .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]) {
     background-color: #386a90 !important;
+}
+
+.scheme_yellow .sc_intro .sc_button.sc_button_style_filled:not([class*="sc_button_hover_"]):hover {
+    background-color: #3ea2ee !important;
 }
